@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Common CSS */
+.container{
+    width: 1170px;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 0px auto;
+}
+.container::after,
+.container::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Navbar CSS */
+.logo{
+    display: inline-block;
+}
+.logo h3{
+    font-size: 18px;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding:20px 14px;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Banner Section */
+.bannersection{
+    background: url("../images/bannerbg.jpg");
+    background-size: 100% 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.banner h3 {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.banner p{
+    font-style: 14px;
+}
+.banner h4 {
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+/* Service CSS */
+.addressection{
+    background: #ddd
+}
+.address{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.imgdescription{
+    width:75%;
+    float: left;
+}
+.imgdescription img {
+    float: left;
+    padding-top: 24px;
+    padding-right: 26px;
+}
+.imgdescription h3{}
+.imgdescription p{}
+.mywork{
+    width: 25%;
+    float: right;
+}
+.mywork h3{}
+.mywork p{}
+
+/* Cards CSS */
+.cardssection {
+    background: #ddd;
+    padding-bottom: 30px;
+}
+.cards {
+    text-align: center;
+    padding-top: 35px;
+}
+.mycards{
+    background: #fff;
+    width: 32%;
+    float: left;
+    margin-right: 20px;
+}
+.mycards:last-child{
+    margin-right: 0px;
+}
+.mycards i {
+    font-size: 49px;
+    padding-top: 40px;
+}
+.mycards h3 {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+.mycards p {
+    text-align: center;
+    padding: 0px 13px 0 13px;
+}
+
+/* portfoliosection CSS */
+
+.portfoliosection {
+    padding: 30px 0px 0px 0px;
+}
+.portfolioimage{
+    width: 70%;
+    float: left;
+}
+.portfolioimage h3 {
+    margin: 0px;
+}
+.portfolioimage p {
+    margin-right: 13px;
+    padding: 3px 0px 25px 0px;
+}
+.protimage{
+   
+}
+.protimage img {
+    width: 30%;
+    float: left;
+    margin: 0px 25px 25px 0;
+}
+
+.aboutimage h3{
+    margin: 0px;
+}
+.protimage p{
+    font-size: 14px;
+}
+
+.aboutportfolio{
+    width: 30%;
+    float: right;
+}
+.fistlist {
+    float: left;
+    width: 50%;
+    padding: 0 37px 7px 42px;
+}
+.fistlist p {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 6px;
+}
+.secondlist {
+    float: left;
+    width: 50%;
+    padding: 0 37px 7px 42px;
+}
+.secondlist p{
+    display: inline-block;
+    margin: 0px;
+    padding-top: 6px;
+    
+}
+/* Contact CSS */
+.contactsection {
+    background: #f2f2f2;
+    padding: 35px 0px 75px 0px;
+}
+
+input[type="text"]{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 15px 0px;
+    border-color:|#ddd;
+}
+input[type="textarea"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 15px 0px;
+    height: 230px;
+    padding-bottom: 205px;
+    border-color: #ddd;
+    outline: 0px;
+}
+input[type="submit"] {
+    border: 1px solid #000;
+    padding: 10px;
+    height: 34px;
+    border-radius: 30px;
+    width: 100px;
+    outline: 0px;
+}
+
+/* Footer CSS */
+.footersection{
+    background: #000;
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer p{
+    color: #fff;
+}
+
+
